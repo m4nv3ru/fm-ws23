@@ -1,9 +1,10 @@
 compile:
 	javac -d . *.java
-	jar cfve MergeSort.jar Main Main.class
+	jar cfve MergeSort.jar MergeSort MergeSort.class
 	rm -rf *.class
 
 clean:
+	rm -rf *.class
 	rm -rf *.jar
 
 run:

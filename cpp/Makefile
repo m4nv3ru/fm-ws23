@@ -5,6 +5,9 @@ clean:
 	rm -rf MergeSort
 
 run:
-	./MergeSort
+	./MergeSort ../problem_size.txt
+
+run-result:
+	./MergeSort ../problem_size.txt true
 
 compile-run: compile run

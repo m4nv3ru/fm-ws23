@@ -8,6 +8,9 @@ clean:
 	rm -rf *.jar
 
 run:
-	java -jar MergeSort.jar
+	java -jar MergeSort.jar ../problem_size.txt
+
+run-result:
+	java -jar MergeSort.jar ../problem_size.txt true
 
 compile-run: compile run
